@@ -1,0 +1,8 @@
+**/node_modules
+**/.yarn-cache
+
+.git
+.gitignore
+backups
+Dockerfile
+docker-compose.yml

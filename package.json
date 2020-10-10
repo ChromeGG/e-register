@@ -1,0 +1,10 @@
+{
+  "name": "e-class-register",
+  "private": true,
+  "scripts": {
+    "start": "node modules/api/server.js"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

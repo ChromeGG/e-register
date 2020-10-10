@@ -1,0 +1,12 @@
+**/.env
+**/node_modules
+.nyc_output
+.yarn-cache
+.idea
+yarn-error.log
+lerna-debug.log
+backups/*
+!backups/seed.sql
+coverage-*
+original-images/*
+_persisted-graphql.json
