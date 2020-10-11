@@ -4,7 +4,7 @@ import { commonConfig } from './config/config.js';
 const init = async () => {
   const server = Hapi.server({
     port: commonConfig.port,
-    host: commonConfig.host,
+    host: commonConfig.host
   });
 
   server.route({
@@ -12,7 +12,7 @@ const init = async () => {
     path: '/',
     handler: (request, h) => {
       return 'Hello World!';
-    },
+    }
   });
 
   await server.start();

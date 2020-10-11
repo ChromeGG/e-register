@@ -1,4 +1,4 @@
-const commonConfig = {
+export const commonConfig = {
   port: 3000,
   host: "0.0.0.0",
   db: {
@@ -24,7 +24,5 @@ const commonConfig = {
     // seeds: {
     //   directory: `${__dirname}/../database/seeders`
     // }
-  }
-}
-
-export { commonConfig }
+  },
+};

@@ -1,0 +1,4 @@
+**/node_modules
+**/dist
+**/modules/landing-page/*
+**/modules/web/public/js/*
