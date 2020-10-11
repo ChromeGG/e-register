@@ -5,23 +5,23 @@ services:
     build: 
       context: .
       dockerfile: ./modules/api/Dockerfile
-    networks:
-      - backend
+    # networks:
+    #   - backend
     ports:
       - "3000:3000"
     volumes:
       - .:/app
 
-  web-cli:
-    image: sample-hapi-app
-    networks:
-      - backend
-    command: sh
+#   web-cli:
+#     image: sample-hapi-app
+#     networks:
+#       - backend
+#     command: sh
 
-networks:
-  backend:
-    driver: bridge
+# networks:
+#   backend:
+#     driver: bridge
 
-volumes:
-  yarn-cache:
-    driver: 'local'
+# volumes:
+#   yarn-cache:
+#     driver: 'local'
